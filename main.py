@@ -100,9 +100,9 @@ def main():
         else:
             print("  Could not find a YouTube link.")
 
-    print("\n--- YouTube Links ---")
-    for song, link in youtube_links.items():
-        print(f"{song}: {link}")
+    print("\n--- All YouTube Links ---")
+    for track, link in youtube_links.items():
+        print(f"{track}: {link}")
 
 if __name__ == "__main__":
     main()
